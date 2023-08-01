@@ -25,6 +25,9 @@ FishingStateMachine.state     = {
 
 --local logger = LibDebugLogger(FishingStateMachine.name)
 
+-- [[ forward declared functions ]] ----------------------------------------------------
+local _lootSceneCB
+
 --[[ local functions ]] ----------------------------------------------------------------
 
 -- This function changes and publishes the fishing state
@@ -86,7 +89,7 @@ local function _lootRelease()
 end
 
 
-local function _lootSceneCB(oldState, newState)
+_lootSceneCB = function(oldState, newState)
     local this = FishingStateMachine
 
     if newState == SCENE_HIDDEN then -- IDLE
