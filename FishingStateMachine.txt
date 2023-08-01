@@ -1,10 +1,10 @@
 ## Title: FishingStateMachine
-## Description: State machine for all fishing related states. |c000088Version: 1.0|r
+## Description: State machine for all fishing related states. |c000088Version: 1.1|r
 ## Author: FishyESO, |c0000C0Sem|r
-## APIVersion: 101037 101038
-## Version: 1.0
-## AddOnVersion: 100
-## OptionalDependsOn: LibDebugLogger>=262
+## APIVersion: 101038 101039
+## Version: 1.1
+## AddOnVersion: 110
+## OptionalDependsOn: LibDebugLogger>=263
 
 ## This Add-On is not created by, affiliated with or sponsored by ZeniMax Media Inc. or its affiliates. The Elder Scrolls® and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the United States and/or other countries. All rights reserved.
 
